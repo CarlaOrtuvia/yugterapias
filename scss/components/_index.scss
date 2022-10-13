@@ -1,0 +1,99 @@
+.div-start {
+    background-color: nth($colores, 3);
+    margin: auto;
+    color: nth($colores, 5);
+    font-size: nth($fontsize, 3);
+    font-family: 'Bitter', serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .img-one {
+        width: 85px;
+        height: auto;
+    }
+}
+
+.div-title {
+    color: nth($colores, 6);
+    font-style: italic;
+    font-weight: bold;
+    font-size: nth($fontsize, 5);
+    font-family: 'Bitter', serif;
+    text-align: center;
+    margin: 45px;
+}
+
+.section-yt {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    .div-yt {
+        display: flex;
+        align-items: flex-start;
+
+        .img-yt {
+            width: 300px;
+            height: auto;
+            margin: 30px;
+            box-shadow: 10px 10px 19px 2px rgba(136, 121, 176, 0.75);
+            -webkit-box-shadow: 10px 10px 19px 2px rgba(136, 121, 176, 0.75);
+            -moz-box-shadow: 10px 10px 19px 2px rgba(136, 121, 176, 0.75);
+        }
+    }
+
+    .div-ytone {
+        display: flex;
+        justify-content: center;
+
+        .p-ytone {
+            color: nth($colores, 5);
+            font-size: nth($fontsize, 4);
+            font-family: 'Bitter', serif;
+            margin-top: 85px;
+            margin-bottom: 65px;
+            margin-left: 55px;
+            margin-right: 45px;
+
+        }
+    }
+}
+
+.carousel-section {
+    .carousel-dimension {
+        width: 20%;
+        height: 20%;
+        margin: 0 auto;
+    }
+}
+
+.div-fn {
+    background-color: nth($colores, 1);
+    opacity: 0.4;
+    margin: auto;
+    color: nth($colores, 5);
+    font-size: nth($fontsize, 3);
+    font-family: 'Bitter', serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .img-one {
+        width: 85px;
+        height: auto;
+    }
+
+    .title-fn {
+        &:hover {
+            transform: scale(2);
+            color: nth($colores, 6);
+        }
+
+        transition-property: all;
+        transition-duration: 3s;
+    }
+}
