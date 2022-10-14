@@ -3,6 +3,12 @@
     background-color: nth($colores,2);
 
     @media screen and (max-width:450px){
-        background-color:nth($colores, 1);
+        background-color:nth($colores, 4);
+        opacity: 0.7;
+        width: 449px;
+        
     }
-}
+   
+    
+
+    }
